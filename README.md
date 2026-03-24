@@ -7,6 +7,7 @@ A very small macOS menu bar app that alternates between:
 
 If the screen locks or the session becomes inactive, the app resets back to the start of a work session.
 
+
 ## What it does
 
 - lives in the menu bar
@@ -16,20 +17,6 @@ If the screen locks or the session becomes inactive, the app resets back to the 
 - lets the user turn reminder sound on or off
 - resets the timer if the screen locks
 
-## Run from source
-
-```bash
-./Scripts/run_app.sh
-```
-
-This launches the bundled `.app`, not plain `swift run`, because macOS notification permission is tied to the app bundle identity.
-
-## Build a `.app`
-
-```bash
-./Scripts/build_app.sh
-open dist/StandUpReminder.app
-```
 
 ## Notes
 
